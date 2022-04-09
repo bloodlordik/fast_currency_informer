@@ -6,4 +6,6 @@ object Dependencies {
     val junit by lazy { "junit:junit:${Version.junit}" }
     val androidJunit by lazy { "androidx.test.ext:junit:${Version.androidJunit}" }
     val espresso by lazy { "androidx.test.espresso:espresso-core:${Version.espressoCore}" }
+    val navigationFragment by lazy { "androidx.navigation:navigation-fragment-ktx:${Version.navigationFragment}" }
+    val navigationUi by lazy { "androidx.navigation:navigation-ui-ktx:${Version.navigationFragment}" }
 }

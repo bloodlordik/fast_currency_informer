@@ -38,6 +38,8 @@ dependencies {
     implementation(Dependencies.appCompat)
     implementation(Dependencies.material)
     implementation(Dependencies.constraintlayout)
+    implementation(Dependencies.navigationFragment)
+    implementation(Dependencies.navigationUi)
     testImplementation(Dependencies.junit)
     androidTestImplementation(Dependencies.androidJunit)
     androidTestImplementation(Dependencies.espresso)

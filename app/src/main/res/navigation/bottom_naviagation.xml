@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_naviagation"
+    app:startDestination="@id/cryptocurrencyMainFragment">
+
+    <fragment
+        android:id="@+id/cryptocurrencyMainFragment"
+        android:name="ru.kirshov.fastcurrencyinformer.presentation.CryptocurrencyMainFragment"
+        android:label="CryptocurrencyMainFragment" />
+    <fragment
+        android:id="@+id/futuresMainFragment"
+        android:name="ru.kirshov.fastcurrencyinformer.presentation.FuturesMainFragment"
+        android:label="FuturesMainFragment" />
+    <fragment
+        android:id="@+id/currencyMainFragment"
+        android:name="ru.kirshov.fastcurrencyinformer.presentation.CurrencyMainFragment"
+        android:label="CurrencyMainFragment" />
+</navigation>
