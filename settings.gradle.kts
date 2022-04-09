@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Fast Currency Informer"
-include ':app'
+include(":app")
