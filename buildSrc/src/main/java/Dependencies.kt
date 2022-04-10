@@ -8,4 +8,6 @@ object Dependencies {
     val espresso by lazy { "androidx.test.espresso:espresso-core:${Version.espressoCore}" }
     val navigationFragment by lazy { "androidx.navigation:navigation-fragment-ktx:${Version.navigationFragment}" }
     val navigationUi by lazy { "androidx.navigation:navigation-ui-ktx:${Version.navigationFragment}" }
+    val fragmentKtx by lazy { "androidx.fragment:fragment-ktx:${Version.fragmentKtx}" }
+    val viewbindingpropertydelegate by lazy { "'com.github.kirich1409:viewbindingpropertydelegate:${Version.viewbindingpropertydelegate}"}
 }

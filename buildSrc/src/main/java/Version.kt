@@ -7,5 +7,6 @@ object Version {
     const val androidJunit="1.1.3"
     const val espressoCore="3.4.0"
     const val navigationFragment = "2.4.2"
-
+    const val fragmentKtx = "1.4.1"
+    const val viewbindingpropertydelegate = "1.5.6"
 }

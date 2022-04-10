@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Currency" />
-    <item android:title="Cryptocurrency" />
-    <item android:title="Futures" />
+    <item
+        android:icon="@drawable/ic_currency"
+        android:title="Currency" />
+    <item
+        android:icon="@drawable/ic_cryptocurrency"
+        android:title="Cryptocurrency" />
+    <item
+        android:icon="@drawable/ic_gold"
+        android:title="Futures" />
 </menu>

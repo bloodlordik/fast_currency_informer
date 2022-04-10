@@ -16,6 +16,9 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
     }
+    buildFeatures{
+        viewBinding = true
+    }
 
     buildTypes {
         release {
@@ -40,6 +43,8 @@ dependencies {
     implementation(Dependencies.constraintlayout)
     implementation(Dependencies.navigationFragment)
     implementation(Dependencies.navigationUi)
+    implementation(Dependencies.fragmentKtx)
+    implementation(Dependencies.viewbindingpropertydelegate)
     testImplementation(Dependencies.junit)
     androidTestImplementation(Dependencies.androidJunit)
     androidTestImplementation(Dependencies.espresso)
