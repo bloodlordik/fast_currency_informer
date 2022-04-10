@@ -12,6 +12,6 @@ class LoadingSplashFragment:Fragment(R.layout.loading_fargment) {
     private val viewModel:LoadingFragmentViewModel by viewModels()
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        req
+
     }
 }
