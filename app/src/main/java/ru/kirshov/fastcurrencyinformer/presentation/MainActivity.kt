@@ -1,11 +1,10 @@
-package ru.kirshov.fastcurrencyinformer
+package ru.kirshov.fastcurrencyinformer.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import ru.kirshov.fastcurrencyinformer.R
 import ru.kirshov.fastcurrencyinformer.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

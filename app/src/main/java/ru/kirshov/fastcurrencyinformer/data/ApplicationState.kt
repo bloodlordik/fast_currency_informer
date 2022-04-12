@@ -1,0 +1,3 @@
+package ru.kirshov.fastcurrencyinformer.data
+
+sealed interface ApplicationState

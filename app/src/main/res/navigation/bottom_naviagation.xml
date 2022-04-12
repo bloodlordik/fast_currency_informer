@@ -6,14 +6,14 @@
 
     <fragment
         android:id="@+id/cryptocurrencyMainFragment"
-        android:name="ru.kirshov.fastcurrencyinformer.presentation.CryptocurrencyMainFragment"
+        android:name="ru.kirshov.fastcurrencyinformer.presentation.fragments.CryptocurrencyMainFragment"
         android:label="CryptocurrencyMainFragment" />
     <fragment
         android:id="@+id/futuresMainFragment"
-        android:name="ru.kirshov.fastcurrencyinformer.presentation.FuturesMainFragment"
+        android:name="ru.kirshov.fastcurrencyinformer.presentation.fragments.FuturesMainFragment"
         android:label="FuturesMainFragment" />
     <fragment
         android:id="@+id/currencyMainFragment"
-        android:name="ru.kirshov.fastcurrencyinformer.presentation.CurrencyMainFragment"
+        android:name="ru.kirshov.fastcurrencyinformer.presentation.fragments.CurrencyMainFragment"
         android:label="CurrencyMainFragment" />
 </navigation>

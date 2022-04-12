@@ -1,4 +1,4 @@
-package ru.kirshov.fastcurrencyinformer.domain
+package ru.kirshov.fastcurrencyinformer.domain.viewmodels
 
 import androidx.lifecycle.ViewModel
 

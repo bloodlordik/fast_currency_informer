@@ -1,4 +1,4 @@
-package ru.kirshov.fastcurrencyinformer.presentation
+package ru.kirshov.fastcurrencyinformer.presentation.fragments
 
 import androidx.fragment.app.Fragment
 

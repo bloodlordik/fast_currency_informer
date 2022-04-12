@@ -44,7 +44,6 @@ dependencies {
     implementation(Dependencies.navigationFragment)
     implementation(Dependencies.navigationUi)
     implementation(Dependencies.fragmentKtx)
-    implementation(Dependencies.viewbindingpropertydelegate)
     testImplementation(Dependencies.junit)
     androidTestImplementation(Dependencies.androidJunit)
     androidTestImplementation(Dependencies.espresso)
