@@ -9,4 +9,6 @@ object Version {
     const val navigationFragment = "2.4.2"
     const val fragmentKtx = "1.4.1"
     const val viewbindingpropertydelegate = "1.5.6"
+    const val retrofit2 = "2.9.0"
+    const val okHttp = "5.0.0-alpha.6"
 }

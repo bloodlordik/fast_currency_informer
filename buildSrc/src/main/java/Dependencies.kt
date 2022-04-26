@@ -9,5 +9,7 @@ object Dependencies {
     val navigationFragment by lazy { "androidx.navigation:navigation-fragment-ktx:${Version.navigationFragment}" }
     val navigationUi by lazy { "androidx.navigation:navigation-ui-ktx:${Version.navigationFragment}" }
     val fragmentKtx by lazy { "androidx.fragment:fragment-ktx:${Version.fragmentKtx}" }
-    val viewbindingpropertydelegate by lazy { "'com.github.kirich1409:viewbindingpropertydelegate:${Version.viewbindingpropertydelegate}"}
+    val viewbindingpropertydelegate by lazy { "com.github.kirich1409:viewbindingpropertydelegate:${Version.viewbindingpropertydelegate}"}
+    val retrofit2 by lazy { "com.squareup.retrofit2:${Version.retrofit2}" }
+    val okhttp by lazy { "com.squareup.okhttp3:okhttp:${Version.okHttp}" }
 }

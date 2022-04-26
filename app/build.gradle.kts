@@ -1,6 +1,10 @@
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    kotlin("plugin.serialization") version "1.6.10"
+    kotlin("kapt")
+    id("dagger.hilt.android.plugin")
 }
 
 android {
@@ -44,7 +48,17 @@ dependencies {
     implementation(Dependencies.navigationFragment)
     implementation(Dependencies.navigationUi)
     implementation(Dependencies.fragmentKtx)
+    implementation(Dependencies.okhttp)
+    implementation("com.google.dagger:hilt-android:2.38.1")
+    kapt("com.google.dagger:hilt-android-compiler:2.38.1")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("androidx.hilt:hilt-navigation-fragment:1.0.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2")
+    implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0")
     testImplementation(Dependencies.junit)
     androidTestImplementation(Dependencies.androidJunit)
     androidTestImplementation(Dependencies.espresso)
+}
+kapt{
+    correctErrorTypes = true
 }
